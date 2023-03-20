@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Evelyn Valenzuela">
+    <meta name="description" content="Contact information">
+    <link rel="stylesheet" href="style.css">
     <title>Contact</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="/index.html">Index</a>
+            <a rel="prev" href="/index.html">Index</a>
         </nav>
         <h1>Contact me</h1>
     </header>
@@ -17,14 +20,14 @@
         <p>If you have an idea in mind where we can collaborate please contact me!</p>
         <fieldset>
             <legend>Get in touch!</legend>
-            <form action="#">
-                <label for="#">Name</label>
-                <input type="text" required><br>
-                <label for="#">Email</label>
-                <input type="email" required><br>
-                <label for="">Message</label><br>
+            <form action="#" method="get">
+                <label for="full_name">Name</label>
+                <input type="text" id="full_name" name="full_name" required><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message</label><br>
                 <textarea name="" id="" cols="30" rows="10" placeholder="Your message..." required></textarea><br>
-                <button>Submit</button>
+                <button type="submit">Submit</button>
             </form>
         </fieldset>
         
